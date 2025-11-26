@@ -1,3 +1,4 @@
+import 'package:expense_tracker/expenses_app.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
       debugShowCheckedModeBanner: false,
-      //home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: ExpensesApp(),
     );
   }
 }
